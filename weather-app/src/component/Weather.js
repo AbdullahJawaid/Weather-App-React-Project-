@@ -68,7 +68,7 @@ function Weather() {
       </div>
       </div>
 
-      <WeatherCard  tempInfo={tempInfo}/>
+      <WeatherCard  {...tempInfo}/>
     </>
   )
 }
